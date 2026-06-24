@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 // Database connection
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://127.0.0.1:27017/todoapp')
+mongoose.connect(process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/todoapp')
   .then(() => console.log('Connected to MongoDB'))
   .catch((err) => console.error('MongoDB connection error:', err));
 
