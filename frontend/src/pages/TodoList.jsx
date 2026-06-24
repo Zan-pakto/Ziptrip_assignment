@@ -204,7 +204,7 @@ export default function TodoList() {
               </div>
               
               {/* Actions */}
-              <div className="flex items-center gap-2 pl-10 sm:pl-0 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity">
+              <div className="flex items-center gap-2 pl-10 sm:pl-0 transition-opacity">
                 <Link
                   to={`/todo?id=${todo._id}`}
                   className="p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-xl transition-colors"
