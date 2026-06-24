@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import TodoList from './pages/TodoList';
-import SingleTodo from './pages/SingleTodo';
+import TodoListPage from './pages/TodoListPage';
+import TodoDetailPage from './pages/TodoDetailPage';
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
       <main className="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8 mt-4">
         <Routes>
           <Route path="/" element={<Navigate to="/todos" replace />} />
-          <Route path="/todos" element={<TodoList />} />
-          <Route path="/todo" element={<SingleTodo />} />
+          <Route path="/todos" element={<TodoListPage />} />
+          <Route path="/todo" element={<TodoDetailPage />} />
         </Routes>
       </main>
     </div>
