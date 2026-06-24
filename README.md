@@ -3,6 +3,9 @@
 A simple and clean Todo application built with React, Tailwind CSS, Node.js, Express, and MongoDB.
 
 ## Features
+**[Please refer to the complete FEATURES.md file for the exhaustive documentation of all functionalities.](./FEATURES.md)**
+
+High-level summary:
 - View all todos in a list
 - Add a new todo (title and optional description)
 - Edit existing todos
